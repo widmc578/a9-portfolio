@@ -1,0 +1,35 @@
+body {
+	background-color;
+}
+
+.container {
+	margin: 40px auto;
+	background-color: black;
+}
+
+.row {
+	margin-top: 25px;
+	text-align: center;
+}
+
+.portfolio, .site, .character, .midterm, .club, .quiz {
+	height: 200px;
+	background-color: white;
+}
+
+.break {
+	height: 200px;
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+	float: left;
+}
+
+.site img {
+	height: 200px;
+	width: auto;
+}
+
+.portfolio img, .character img, .midterm img, .club img, .quiz img{
+	width: 300px;
+	height: 200px;
+}
